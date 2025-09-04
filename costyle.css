@@ -1,0 +1,79 @@
+nav
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 30px;
+    padding: 5px 0px 5px 0px;
+}
+
+nav a
+{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 400;
+}
+
+nav a:hover
+{
+    background-color: rgb(190, 190, 255);
+    border-radius: 10px;
+}
+
+footer
+{
+    clear: both;
+    text-align: center;
+}
+
+main
+{
+    text-align: center;
+    margin: 40px;
+}
+
+.form-data {
+  height: 100%;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border: 1px solid blue;
+  border-radius: 20px;
+  font-family: Arial, sans-serif;
+  background: whitesmoke;
+}
+
+.form-data label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-data input,
+.form-data select,
+.form-data textarea {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  font-size: 15px;
+}
+
+.form-data button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: rgb(103, 103, 225);
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form-data button:hover {
+  background: rgb(66, 192, 254);
+}
+

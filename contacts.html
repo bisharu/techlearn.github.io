@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="costyle.css">
+    <link rel="icon" type="image/x-icon" href="SmallSquareLogoJpg.jpg">
+</head>
+<body  style="background-color: whitesmoke;">
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="courses.html">Courses</a>
+            <a href="contacts.html">Contacts</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact</h1>
+        <form class="form-data">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            <label for="course">Courses</label>
+            <select name="course" id="course">
+                <option value="" disabled selected>Choose an option</option>
+                <option value="B&E">Business & Entrepreneurship</option>
+                <option value="T&CS">Technology & Computer Science</option>
+                <option value="CA&D">Creative Art & Design</option>
+                <option value="HW&LS">Health, Wellness & Life Skills</option>
+                <option value="S&E">Science & Engineering</option>
+            </select>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Write a message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <hr>
+    <footer>
+        <p>&#169; copyright</p>
+        <p>DC2023BCA0016
+    </footer>
+</body>
+</html>
